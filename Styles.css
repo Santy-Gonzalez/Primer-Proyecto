@@ -1,0 +1,1092 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header section section {
+
+    padding: 20px;
+}
+
+header a{
+
+    color: #F0E9D2;
+    padding: 2rem 0;
+    
+}
+
+.conteiner-logo-nav{
+
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.header-logo{
+
+    padding: 10px;
+
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover; 
+
+    margin: 15px 15;
+    padding: 15px;
+    vertical-align: middle;
+    max-width: 90vw;
+    max-height: 90px;
+    border-radius: 100%;
+
+}
+
+.nav-titulos ul{   
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.nav-titulos ul li{
+    display: inline-block;
+}
+
+.nav-titulos ul li a{
+    
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-right: 5px;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    
+}
+
+.nav-titulos ul li a:hover{
+    background: #FCFFA6;
+    padding: 1px;
+}
+
+.Inicio{
+
+
+    text-decoration: none;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+    color: black;
+
+}
+
+.header{
+
+    background: #678983;
+    padding: 0.0001rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+
+
+.contenedor-presentacion{
+
+
+    background-color: #E6DDC4;
+    margin: 0;
+    
+
+
+}
+
+.quienes{
+    
+    
+    font-family: cursive;
+    display: flex;
+    font-size: 20px;
+    line-height: 2;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-top: 40px;
+    
+}
+
+.hola{
+
+    
+    font-family: cursive;
+    display: flex;
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 1%;
+    font-weight: 550;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 75px;
+    padding-top: 1px;
+
+}
+
+.Muebles-nuestros{
+
+    margin-left: 2px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 1%;
+    font-family: cursive;
+    line-height: 1;
+    font-weight: 550;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 75px;
+    padding-top: 1px;
+    
+}
+
+.contenedor-divs{
+
+    padding: 80px;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+
+
+}
+
+.ofertas{
+
+    background-color: #F0E9D2;
+}
+
+.oferta-contenedor{
+    background-color: #F0E9D2;
+}
+
+.oferta-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.J{
+    display: flex;
+    justify-content: center;
+}
+.B{
+    display: flex;
+    justify-content: center;
+}
+.N{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.O{
+    display: flex;
+    justify-content: center;
+}
+.Linea-2{
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.Linea-1{
+    padding-top: 10px;
+    margin: 5px;
+}
+.ofertas-5{
+    padding-left: 10px;
+}
+
+.ofertas{
+
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: cursive;
+}
+
+.pie{
+
+    background-color: #435560;
+
+
+}
+
+.class-contacto{
+
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    font-family: cursive;
+    width: 100%;
+    background-color: #435560;
+    
+}
+
+.Iconos{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+/* Empieza HTML Ayuda*/
+
+.conteiner{
+    padding-top: 10px;
+
+
+}
+
+.Ayuda{
+
+    padding-top: 80px;
+    padding-left: 20px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+.ayudanos{
+
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+
+}
+
+.dudas{
+
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: cursive;
+
+    
+}
+
+.enviar{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.enviar-2{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.limpiar{
+
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.limpiar-2{
+
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.info{
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.info-2{
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.escribir{
+
+    padding: 30px;
+    width: 20%;
+}
+
+.escribir-2{
+
+    padding: 30px;
+    width: 20%;
+
+}
+
+/* Empieza HTML Tienda*/
+
+.todo{
+
+    padding-top: 150px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+
+}
+
+.selecciona{
+
+    font-family: cursive;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.menor{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+
+.mayor{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+.nuevo{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+.viejo{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+.ofertas-contenedor{
+    background-color: #F0E9D2;
+}
+
+.linea-1{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+
+}
+
+.linea-2{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 40px;
+
+
+}
+
+.preciosss-3{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.preciosss-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.preciosss-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.preciosss-4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+.preciosss-5{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+.preciosss-6{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+
+.ofertas{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.productos{
+    background-color: #E6DDC4;
+}
+.selecciona{
+    background-color: #E6DDC4;
+    text-decoration: none;
+}
+.todo{
+    background-color: #E6DDC4;
+}
+
+
+
+
+/* Empieza HTML contactanos*/
+
+.formulario{
+    font-family: cursive;
+    padding: 20px;
+}
+
+.enviar-formulario{
+
+    display: flex;
+    align-items: center;
+}
+
+.limpiar-formulario{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.formularios{
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.formulario-contacto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.nombre{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+
+}
+
+.apellido{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+
+}
+
+.email{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+    
+}
+
+.mensaje{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 25%;
+
+}
+
+.mensaje-1{
+    padding: 10px;
+}
+.nombre-1{
+    padding: 10px;
+}
+.apellido-1{
+    padding: 10px;
+}
+.email-1{
+    padding: 10px;
+}
+.contenedor-formulario{
+    background-color:#F0E9D2;
+}
+
+/* Empieza HTML Youtube*/
+
+.quienes-3{
+
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    
+}
+
+.video-quienes{
+
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.manejamos{
+
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.como-manejamos{
+
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+/* empieza grid de inicio */
+
+.contenedor-divs{
+
+    display: grid;
+    grid-template-rows: 100px 150px 100px ;
+    grid-template-columns: 300fr 300fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+
+}
+
+.Video{
+    grid-row: 2/2;
+
+}
+
+.Video{
+    display: flex;
+    align-items: center;
+
+}
+
+.izquierda{
+    grid-column: 2/2;
+
+}
+
+.izquierda{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    height: 70px;
+    width: 30%;
+
+}
+
+.derecha{
+    grid-row: 3/4;
+    grid-column: 2/2;
+}
+
+.derecha{
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    height: 70px;
+    width: 30%;
+}
+
+.ofertas-contenedor{
+    display: grid;
+    grid-template-rows: 100px 150px 100px ;
+}
+
+.oferta{
+    display: flex;
+    justify-content: space-around;
+}
+
+.precios{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+
+}
+.precios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pie{
+    display: grid;
+    grid-template-rows: 80px 80px 80px;
+
+}
+
+/* empieza grid de contactanos */
+
+.nav-contenedor{
+    padding-top: 200px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 100fr 100f 100fr;
+    grid-gap: 40px;
+    background-color: #E6DDC4;
+
+}
+
+.imagen-whatsapp{
+    grid-column: 1/2;
+}
+.numero{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.imagen-maps{
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+.imagen-whatsapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.numero{
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+}
+
+.imagen-logo-grande-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contenedor-formulario{
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px 60px ;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+    grid-gap: 20px;
+}
+
+
+.formulario{
+    grid-row:  1/2;
+}
+
+.formulario{
+    display: flex;
+    font-size: 20px;
+    font-family: cursive;
+    padding-left: 20px;
+
+}
+
+.nombre{
+    grid-row: 2/3;
+}
+
+.nombre{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.nombre-1{
+    border-radius: 10%;
+}
+
+.apellido{
+    grid-row: 3/4;
+}
+
+.apellido{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.apellido-1{
+    border-radius: 10%;
+}
+
+.email{
+    grid-row: 4/5;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.email-1{
+    border-radius: 10%;
+}
+
+.mensaje{
+    grid-row: 5/6;
+}
+
+.mensaje{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+.mensaje-1{
+    border-radius: 10%;
+}
+
+.enviar{
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+.enviar{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.limpiar{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.limpiar{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Empieza media queries index */
+
+@media screen and (max-width: 1000px) {
+
+    .header-logo{
+        display: none;
+    }
+
+    .nav-titulos{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        justify-content: center;
+    }
+    .contenedor-presentacion{
+        padding-top: 1px;
+    }
+
+    .quienes{
+        justify-content: center;
+    }
+
+    .hola{
+        justify-content: center;
+    }
+
+    .Muebles-nuestros{
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+    
+    .contenedor-divs{
+        display: grid;
+        grid-template-rows: 250px 250px;
+        grid-template-columns: 400px 400px;
+        justify-content: center;
+    }
+    .Video{
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+    .Video{
+        display: flex;
+        justify-content: center;
+    }
+    .izquierda{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .izquierda{
+        padding-top: 150px;
+    }
+    .derecha{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+    .derecha{
+        padding-top: 160px;
+    }
+
+    .ofertas{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .Linea-1{
+        display: grid;
+        grid-template-areas: 
+        "ofertas-2 ofertas-3"
+        "n o"
+        ;
+        justify-content: space-around;
+    }
+    .ofertas-2{
+        grid-area: ofertas-2;
+    }
+    .ofertas-3{
+        grid-area: ofertas-3;
+    }
+    .J{
+        grid-area: n;
+    }
+    .B{
+        grid-area: o;
+    }
+    .J{
+        display: flex;
+        justify-content: center;
+    }
+    .B{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Linea-2{
+        display: grid;
+        grid-template-areas: 
+        "ofertas-4 ofertas-5"
+        "s i"
+        ;
+        justify-content: space-around;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    .ofertas-4{
+        grid-area: ofertas-4;
+    }
+    .ofertas-5{
+        grid-area: ofertas-5;
+    }
+    .N{
+        grid-area: s;
+    }
+    .O{
+        grid-area: i;
+    }
+    .N{
+        display: flex;
+        justify-content: center;
+    }
+    .O{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* empieza queries contactanos */
+
+
+    .formulario{
+        display: grid;
+        grid-template-areas: 
+        "escribir-333 escribir-333"
+        "enviar limpiar"
+        ;
+    }
+
+    .escribir-333{
+        grid-area: escribir-333;
+    }
+    .info{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+    .enviar{
+        grid-area: enviar;
+    }
+    .limpiar{
+        grid-area: limpiar;
+    }
+    .Ayuda{
+        display: flex;
+        justify-content: center;
+
+    }
+    .ayudanos{
+        display: flex;
+        padding-left: 50px;
+    }
+
+    .formulario-2{
+        display: grid;
+        grid-template-areas: 
+        "info-2 info-2"
+        "enviar-2 limpiar-2"
+        ;
+    }
+    .info-2{
+        grid-area: info-2;
+    }
+    .enviar-2{
+        grid-area: enviar-2;
+    }
+    .limpiar-2{
+        grid-area: limpiar-2;
+    }
+
+    .dudas{
+        padding-left: 50px;
+    }
+
+    .info-2{
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+    }
+
+    .formulario-2{
+        padding-bottom: 50px;
+    }
+
+    /* empieza html tienda */
+
+    .linea-1{
+        display: grid;
+        grid-template-areas: 
+        "imagen-a imagen-b imagen-c"
+        "a b c"
+        ;
+    }
+
+    .imagen-a{
+        grid-area: imagen-a;
+    }
+    .imagen-b{
+        grid-area: imagen-b;
+    }
+    .imagen-c{
+        grid-area: imagen-c;
+    }
+    .a{
+        grid-area: a;
+    }
+    .b{
+        grid-area: b;
+    }
+    .c{
+        grid-area: c;
+    }
+
+    .linea-2{
+        display: grid;
+        grid-template-areas: 
+        "imagen-d imagen-e imagen-f"
+        "d e f"
+        ;
+    }
+
+    .imagen-d{
+        grid-area: imagen-d;
+    }
+    .imagen-e{
+        grid-area: imagen-e;
+    }
+    .imagen-f{
+        grid-area: imagen-f;
+    }
+    .d{
+        grid-area: d;
+    }
+    .e{
+        grid-area: e;
+    }
+    .f{
+        grid-area: f;
+    }
+
+}
