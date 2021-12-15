@@ -1,110 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-header section section {
-
-    padding: 20px;
-}
-
-header a{
-
-    color: #F0E9D2;
-    padding: 2rem 0;
-    
-}
-
-.conteiner-logo-nav{
-
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    max-width: 850px;
-    margin: 0 auto;
-    align-items: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
 
 }
-.header-logo{
-
-    padding: 10px;
-
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    object-fit: cover; 
-
-    margin: 15px 15;
-    padding: 15px;
-    vertical-align: middle;
-    max-width: 90vw;
-    max-height: 90px;
-    border-radius: 100%;
-
-}
-
-.nav-titulos ul{   
-
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
-
-.nav-titulos ul li{
-    display: inline-block;
-}
-
-.nav-titulos ul li a{
-    
-    display: block;
-    padding: 0.5rem 1rem;
-    margin-right: 5px;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-    
-}
-
-.nav-titulos ul li a:hover{
-    background: #FCFFA6;
-    padding: 1px;
-}
-
-.Inicio{
-
-
-    text-decoration: none;
-    width: 85%;
-    max-width: 850px;
-    margin: 0 auto;
-    color: black;
-
-}
-
-.header{
-
-    background: #678983;
-    padding: 0.0001rem 0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-
-}
-
-
 
 .contenedor-presentacion{
 
-
     background-color: #E6DDC4;
-    margin: 0;
-    
-
 
 }
+
 
 .quienes{
     
@@ -113,11 +18,10 @@ header a{
     display: flex;
     font-size: 20px;
     line-height: 2;
-    margin-top: 100px;
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 50px;
-    padding-top: 40px;
+    padding-top: 20px;
     
 }
 
@@ -159,17 +63,28 @@ header a{
     overflow: hidden;
     display: flex;
     list-style-type: none;
-
+    padding-bottom: 40px;
 
 }
 
-.ofertas{
+.contenedor-divs{
+    display: grid;
+    grid-template-areas: 
+    "Video carrusel";
+}
 
-    background-color: #F0E9D2;
+.Video{
+    grid-area: Video;
+    width: 100%;
+}
+.carrusel{
+    grid-area: carrusel;
+    width: 100%;
 }
 
 .oferta-contenedor{
     background-color: #F0E9D2;
+    width: 100%;
 }
 
 .oferta-contenedor{
@@ -211,12 +126,14 @@ header a{
     padding-top: 10px;
     padding-left: 30px;
     font-family: cursive;
+    width: 100%;
+    background-color: #F0E9D2;
 }
 
 .pie{
 
     background-color: #435560;
-
+    width: 100%;
 
 }
 
@@ -237,6 +154,7 @@ header a{
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 
     
 }
@@ -245,8 +163,6 @@ header a{
 
 .conteiner{
     padding-top: 10px;
-
-
 }
 
 .Ayuda{
@@ -349,10 +265,11 @@ header a{
 
 .todo{
 
-    padding-top: 150px;
+    padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
     font-family: cursive;
+    background-color: #F0E9D2;
 
 }
 
@@ -361,6 +278,7 @@ header a{
     font-family: cursive;
     font-size: 20px;
     padding: 15px;
+    background-color: #F0E9D2;
 
 }
 
@@ -392,73 +310,31 @@ header a{
     font-size: 13px;
 
 }
-.ofertas-contenedor{
-    background-color: #F0E9D2;
+
+
+.fotos{
+    background-color: #E6DDC4;
 }
 
-.linea-1{
-
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-top: 40px;
-
+.primera-linea{
+    width: 600px;
+}
+.segunda-linea{
+    width: 600px;
+    padding-bottom: 40px;
+}
+.negro{
+    color: black;
 }
 
-.linea-2{
-
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    padding-top: 40px;
-
-
-}
-
-.preciosss-3{
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-}
-
-.preciosss-2{
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-}
-
-.preciosss-1{
-    display: flex;
-    justify-content: space-around;
-    padding: 5px;
-}
-
-.preciosss-4{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
-
-.preciosss-5{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 15px;
-
-}
-
-.preciosss-6{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5px;
-    padding-bottom: 15px;
-
+.nombre-ofertas{
+   background-color: #E6DDC4; 
 }
 
 .ofertas{
     padding-left: 30px;
     padding-top: 15px;
+    font-family: cursive;
 }
 .productos{
     background-color: #E6DDC4;
@@ -470,9 +346,6 @@ header a{
 .todo{
     background-color: #E6DDC4;
 }
-
-
-
 
 /* Empieza HTML contactanos*/
 
@@ -611,82 +484,6 @@ header a{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-}
-
-/* empieza grid de inicio */
-
-.contenedor-divs{
-
-    display: grid;
-    grid-template-rows: 100px 150px 100px ;
-    grid-template-columns: 300fr 300fr;
-    grid-column-gap: 40px;
-    grid-row-gap: 30px;
-
-}
-
-.Video{
-    grid-row: 2/2;
-
-}
-
-.Video{
-    display: flex;
-    align-items: center;
-
-}
-
-.izquierda{
-    grid-column: 2/2;
-
-}
-
-.izquierda{
-    display: flex;
-    align-items: center;
-    padding-left: 70px;
-    height: 70px;
-    width: 30%;
-
-}
-
-.derecha{
-    grid-row: 3/4;
-    grid-column: 2/2;
-}
-
-.derecha{
-    display: flex;
-    align-items: center;
-    padding-left: 75px;
-    height: 70px;
-    width: 30%;
-}
-
-.ofertas-contenedor{
-    display: grid;
-    grid-template-rows: 100px 150px 100px ;
-}
-
-.oferta{
-    display: flex;
-    justify-content: space-around;
-}
-
-.precios{
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-
-}
-.precios{
-    display: flex;
-    justify-content: space-around;
-}
-
-.pie{
-    display: grid;
-    grid-template-rows: 80px 80px 80px;
 
 }
 
@@ -844,17 +641,9 @@ header a{
 
 @media screen and (max-width: 1000px) {
 
-    .header-logo{
-        display: none;
-    }
-
-    .nav-titulos{
-        padding-bottom: 20px;
-        padding-top: 20px;
-        justify-content: center;
-    }
-    .contenedor-presentacion{
-        padding-top: 1px;
+    *{
+        margin: 0;
+        padding: 0;
     }
 
     .quienes{
@@ -870,61 +659,29 @@ header a{
         padding-bottom: 20px;
     }
     
-    .contenedor-divs{
-        display: grid;
-        grid-template-rows: 250px 250px;
-        grid-template-columns: 400px 400px;
-        justify-content: center;
-    }
-    .Video{
-        grid-row: 1/2;
-        grid-column: 1/3;
-    }
-    .Video{
-        display: flex;
-        justify-content: center;
-    }
-    .izquierda{
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-    .izquierda{
-        padding-top: 150px;
-    }
-    .derecha{
-        grid-row: 2/3;
-        grid-column: 2/3;
-    }
-    .derecha{
-        padding-top: 160px;
-    }
+.contenedor-divs{
+    display: grid;
+    grid-template-areas: 
+    "Video"
+    "carrusel"
+    ;
+    row-gap: 200px;
+}
+.Video{
+    grid-area: Video;
+}
+.carrusel{
+    grid-area: carrusel;
+}
 
-    .ofertas{
+    .oferta-contenedor{
+        background-color: #F0E9D2;
+        width: 100%;
+    }
+    
+    .oferta-contenedor{
         display: flex;
-        justify-content: center;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .Linea-1{
-        display: grid;
-        grid-template-areas: 
-        "ofertas-2 ofertas-3"
-        "n o"
-        ;
-        justify-content: space-around;
-    }
-    .ofertas-2{
-        grid-area: ofertas-2;
-    }
-    .ofertas-3{
-        grid-area: ofertas-3;
-    }
-    .J{
-        grid-area: n;
-    }
-    .B{
-        grid-area: o;
+        justify-content: space-evenly;
     }
     .J{
         display: flex;
@@ -934,38 +691,38 @@ header a{
         display: flex;
         justify-content: center;
     }
-
+    .N{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .O{
+        display: flex;
+        justify-content: center;
+    }
     .Linea-2{
-        display: grid;
-        grid-template-areas: 
-        "ofertas-4 ofertas-5"
-        "s i"
-        ;
-        justify-content: space-around;
-        padding-bottom: 15px;
-        padding-top: 15px;
+        padding-bottom: 20px;
+        margin: 10px;
     }
-
-    .ofertas-4{
-        grid-area: ofertas-4;
+    .Linea-1{
+        padding-top: 10px;
+        margin: 5px;
     }
     .ofertas-5{
-        grid-area: ofertas-5;
+        padding-left: 10px;
     }
-    .N{
-        grid-area: s;
+    
+    .ofertas{
+    
+        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 30px;
+        font-family: cursive;
+        width: 100%;
+        background-color: #F0E9D2;
     }
-    .O{
-        grid-area: i;
-    }
-    .N{
-        display: flex;
-        justify-content: center;
-    }
-    .O{
-        display: flex;
-        justify-content: center;
-    }
+
+
 
     /* empieza queries contactanos */
 
