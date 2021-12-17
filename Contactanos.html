@@ -1,5 +1,5 @@
  <!DOCTYPE html>
- <html lang="en">
+ <html lang="es">
  <head>
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,6 +35,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="Ayuda.html">Ayuda</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contactanos.html">Contactanos</a>
+                  </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Otros
@@ -57,94 +60,58 @@
 
     </header>
 
-    <nav class="nav-contenedor">
+    <article class="imagenes-contacto">
 
-        <div class="imagen-whatsapp">
+      <div class="container contacto">
+
+        <div class="row align-items-center">
+          <div class="col whatssapp">
             <img class="imagen-logo-grande" src="imagenes/Logo-whatsapp-grande.png" alt="Logo-WhatsApp">
+          </div>
+          <div class="col">
+            <p>5491131143474</p>
+          </div>
+          <div class="col">
+            <img class="imagen-logo-grande-2" src="imagenes/Logo-maps.png" alt="Logo-Google-Maps"></div>
+          </div>
         </div>
+      </div>
 
-        <div class="numero">
-            <p class="numero">+5491131143474</p>
-        </div>
-
-        <div class="imagen-maps">
-            <img class="imagen-logo-grande-2" src="imagenes/Logo-maps.png" alt="Logo-Google-Maps">
-        </div>
-
-    </nav>
-
-
-
-<section>
-
-
-
-        <fieldset >
-
-            <div >
-
-                <form>
-
-                    <nav class="contenedor-formulario">
-
-                        <div>
-                            <legend class="formulario">Formulario para contactarnos:</legend>
-                        </div>
-    
-                        <div class="nombre">
-    
-                            <label for="Nombre_Apellido">Nombre:</label>
-                            <input class="nombre-1" type="text" name="Nombre_Apellido" placeholder="Nombre">
-    
-                        </div>
-    
-                        <div class="apellido">
-    
-                            <label for="Nombre_Apellido">Apellido:</label>
-                            <input class="apellido-1" type="text" name="Nombre_Apellido" placeholder="Apellido">
-    
-                        </div>
-    
-                        <div class="email">
-    
-                            <label for="Email">Email:</label>
-                            <input class="email-1" type="text" name="Email" placeholder="Email">
-    
-                        </div>
-    
-                        <div class="mensaje">
-    
-                            <label for="Mensaje">Mensaje:</label>
-                            <input  class="mensaje-1" type="text" name="Mensaje" placeholder="Mensaje">
-    
-                        </div>
-    
-                        <div class="enviar">
-    
-                                <input type="submit" value="Enviar-Formulario">
-        
-                        </div>
-
-                        <div class="limpiar">
-                            <input type="reset" value="Limpiar-Formulario">
-                        </div>
-
-                    </nav>
+    </article>
 
 
 
 
-                    </div>
-                    
-                </form>
 
+<section class="color">
 
-            </div>
-
-        </fieldset>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Apellido:</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Apellido">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Email</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Duda o consulta"></textarea>
+  </div>
+  
+  <div class="vstack gap-2 col-md-5 mx-auto">
+    <button type="button" class="btn btn-secondary">Enviar</button>
+    <button type="button" class="btn btn-outline-secondary">Limpiar</button>
+  </div>
 
 
 </section>
+
+
+
 
 
 
