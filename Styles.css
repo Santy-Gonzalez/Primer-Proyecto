@@ -71,15 +71,16 @@
     display: grid;
     grid-template-areas: 
     "Video carrusel";
+    justify-content: space-around;
 }
 
 .Video{
     grid-area: Video;
-    width: 100%;
 }
 .carrusel{
     grid-area: carrusel;
-    width: 100%;
+    width: 500px;
+    height: 400px;
 }
 
 .oferta-contenedor{
@@ -367,6 +368,8 @@
 .text-center{
     padding: 25px;
     background-color:#F0E9D2;
+    width: 500;
+    height: 300;
 }
 
 .manejamos{
@@ -530,211 +533,73 @@
 
 /* Empieza media queries index */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
 
     *{
         margin: 0;
         padding: 0;
     }
-
-    .quienes{
-        justify-content: center;
-    }
-
-    .hola{
-        justify-content: center;
-    }
-
-    .Muebles-nuestros{
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-    
-.contenedor-divs{
-    display: grid;
-    grid-template-areas: 
-    "Video"
-    "carrusel"
-    ;
-    row-gap: 200px;
-}
-.Video{
-    grid-area: Video;
-}
-.carrusel{
-    grid-area: carrusel;
-}
-
-    .oferta-contenedor{
-        background-color: #F0E9D2;
+    /* media youtube */
+    .porcentaje{
         width: 100%;
-    }
-    
-    .oferta-contenedor{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .J{
-        display: flex;
-        justify-content: center;
-    }
-    .B{
-        display: flex;
-        justify-content: center;
-    }
-    .N{
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-    .O{
-        display: flex;
-        justify-content: center;
-    }
-    .Linea-2{
-        padding-bottom: 20px;
-        margin: 10px;
-    }
-    .Linea-1{
-        padding-top: 10px;
-        margin: 5px;
-    }
-    .ofertas-5{
-        padding-left: 10px;
-    }
-    
-    .ofertas{
-    
-        font-size: 30px;
-        padding-top: 10px;
-        padding-left: 30px;
-        font-family: cursive;
-        width: 100%;
-        background-color: #F0E9D2;
+        height: 200px;
     }
 
+    .todo{
+        font-size: 20px;
+    }
 
+    /* media index */
 
-    /* empieza queries contactanos */
-
-
-    .formulario{
+    .contenedor-divs{
         display: grid;
         grid-template-areas: 
-        "escribir-333 escribir-333"
-        "enviar limpiar"
+        "Video"
+        "carrusel"
         ;
-    }
-
-    .escribir-333{
-        grid-area: escribir-333;
-    }
-    .info{
-        display: flex;
+        row-gap: 200px;
         justify-content: center;
-        padding: 25px;
     }
-    .enviar{
-        grid-area: enviar;
+    .Video{
+        grid-area: Video;
     }
-    .limpiar{
-        grid-area: limpiar;
+    .carrusel{
+        grid-area: carrusel;
     }
-    .Ayuda{
-        display: flex;
-        justify-content: center;
-
-    }
-    .ayudanos{
-        display: flex;
-        padding-left: 50px;
+    .carrusel{
+        width: 300px;
     }
 
-    .formulario-2{
+    .video-presentacion{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Iconos{
         display: grid;
         grid-template-areas: 
-        "info-2 info-2"
-        "enviar-2 limpiar-2"
+        "what face"
+        "you inst"
         ;
-    }
-    .info-2{
-        grid-area: info-2;
-    }
-    .enviar-2{
-        grid-area: enviar-2;
-    }
-    .limpiar-2{
-        grid-area: limpiar-2;
+        gap: 10px;
     }
 
-    .dudas{
-        padding-left: 50px;
+    .what{
+        grid-area: what;
     }
 
-    .info-2{
-        display: flex;
-        justify-content: center;
-        padding: 25px;
+    .face{
+        grid-area: face;
     }
 
-    .formulario-2{
-        padding-bottom: 50px;
+    .you{
+        grid-area: you;
     }
 
-    /* empieza html tienda */
-
-    .linea-1{
-        display: grid;
-        grid-template-areas: 
-        "imagen-a imagen-b imagen-c"
-        "a b c"
-        ;
-    }
-
-    .imagen-a{
-        grid-area: imagen-a;
-    }
-    .imagen-b{
-        grid-area: imagen-b;
-    }
-    .imagen-c{
-        grid-area: imagen-c;
-    }
-    .a{
-        grid-area: a;
-    }
-    .b{
-        grid-area: b;
-    }
-    .c{
-        grid-area: c;
-    }
-
-    .linea-2{
-        display: grid;
-        grid-template-areas: 
-        "imagen-d imagen-e imagen-f"
-        "d e f"
-        ;
-    }
-
-    .imagen-d{
-        grid-area: imagen-d;
-    }
-    .imagen-e{
-        grid-area: imagen-e;
-    }
-    .imagen-f{
-        grid-area: imagen-f;
-    }
-    .d{
-        grid-area: d;
-    }
-    .e{
-        grid-area: e;
-    }
-    .f{
-        grid-area: f;
+    .inst{
+        grid-area: inst;
     }
 
 }
+
+
