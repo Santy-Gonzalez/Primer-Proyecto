@@ -1,0 +1,432 @@
+@import "Contactanos";
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedor-presentacion{
+
+    background-color: #E6DDC4;
+
+}
+
+
+.quienes{
+    
+    
+    font-family: cursive;
+    display: flex;
+    font-size: 20px;
+    line-height: 2;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    
+}
+
+.hola{
+
+    
+    font-family: cursive;
+    display: flex;
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 1%;
+    font-weight: 550;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 75px;
+    padding-top: 1px;
+
+}
+
+.Muebles-nuestros{
+
+    margin-left: 2px;
+    display: flex;
+    font-size: 15px;
+    margin-left: 1%;
+    font-family: cursive;
+    line-height: 1;
+    font-weight: 550;
+    margin-bottom: 0px;
+    margin-right: 20px;
+    margin-left: 75px;
+    padding-top: 1px;
+    
+}
+
+.contenedor-divs{
+
+    padding: 80px;
+    overflow: hidden;
+    display: flex;
+    list-style-type: none;
+    padding-bottom: 40px;
+
+}
+
+.contenedor-divs{
+    display: grid;
+    grid-template-areas: 
+    "Video carrusel";
+    justify-content: space-around;
+}
+
+.Video{
+    grid-area: Video;
+}
+.carrusel{
+    grid-area: carrusel;
+    width: 500px;
+    height: 400px;
+}
+
+.oferta-contenedor{
+    background-color: #F0E9D2;
+    width: 100%;
+}
+
+.oferta-contenedor{
+    display: flex;
+    justify-content: space-evenly;
+}
+.J{
+    display: flex;
+    justify-content: center;
+}
+.B{
+    display: flex;
+    justify-content: center;
+}
+.N{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.O{
+    display: flex;
+    justify-content: center;
+}
+.Linea-2{
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.Linea-1{
+    padding-top: 10px;
+    margin: 5px;
+}
+.ofertas-5{
+    padding-left: 10px;
+}
+
+.ofertas{
+
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: cursive;
+    width: 100%;
+    background-color: #F0E9D2;
+}
+
+.pie{
+
+    background-color: #435560;
+    width: 100%;
+
+}
+
+.class-contacto{
+
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+    width: 100%;
+    background-color: #435560;
+    
+}
+
+.Iconos{
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 15px;
+
+    
+}
+
+/* Empieza HTML Ayuda*/
+
+.conteiner{
+    padding-top: 10px;
+    background-color: #F0E9D2;
+}
+
+.Ayuda{
+
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: cursive;
+    font-size: 40px;
+    background-color: #F0E9D2;
+
+}
+
+.ayudanos{
+
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+
+}
+
+.dudas{
+
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: cursive;
+
+}
+
+.letra{
+    font-size: 20px;
+}
+.letra-2{
+    font-size: 20px;
+}
+
+.fin{
+    padding: 15px;
+}
+
+.fin-2{
+    padding: 15px;
+}
+
+.ofertas-23{
+    font-size: 35px;
+    font-family: cursive;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: #F0E9D2;
+}
+
+.info{
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+.info-2{
+
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+/* Empieza HTML Tienda*/
+
+.fotos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.todo{
+
+    padding: 20px;
+    font-family: cursive;
+    background-color: #F0E9D2;
+    font-size: 35px;
+
+}
+
+.selecciona{
+
+    font-family: cursive;
+    font-size: 20px;
+    padding: 30px;
+    background-color: #F0E9D2;
+
+}
+
+.menor{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+
+.mayor{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+.nuevo{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+.viejo{
+
+    font-family: cursive;
+    font-size: 13px;
+
+}
+
+
+.fotos{
+    background-color: #E6DDC4;
+}
+
+.primera-linea{
+    width: 600px;
+}
+.segunda-linea{
+    width: 600px;
+    padding-bottom: 40px;
+}
+.negro{
+    color: black;
+}
+
+.nombre-ofertas{
+   background-color: #E6DDC4; 
+}
+
+.ofertas{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: cursive;
+}
+.productos{
+    background-color: #E6DDC4;
+}
+.selecciona{
+    background-color: #E6DDC4;
+    text-decoration: none;
+}
+.todo{
+    background-color: #E6DDC4;
+}
+
+/* Empieza HTML contactanos*/
+
+
+/* Empieza HTML Youtube*/
+
+.fotos-{
+    background-color: #E6DDC4;
+}
+.quienes-3{
+    padding: 25px;
+    font-family: cursive;
+    font-size: 25px;
+    background-color:#F0E9D2;
+}
+
+.text-center{
+    padding: 25px;
+    background-color:#F0E9D2;
+    width: 500;
+    height: 300;
+}
+
+.manejamos{
+
+    padding: 25px;
+    font-family: cursive;
+    font-size: 25px;
+    background-color:#F0E9D2;
+}
+
+/* Empieza media queries index */
+
+@media screen and (max-width: 600px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* media youtube */
+    .porcentaje{
+        width: 100%;
+        height: 200px;
+    }
+
+    .todo{
+        font-size: 20px;
+    }
+
+    /* media index */
+
+    .contenedor-divs{
+        display: grid;
+        grid-template-areas: 
+        "Video"
+        "carrusel"
+        ;
+        row-gap: 200px;
+        justify-content: center;
+    }
+    .Video{
+        grid-area: Video;
+    }
+    .carrusel{
+        grid-area: carrusel;
+    }
+    .carrusel{
+        width: 300px;
+    }
+
+    .video-presentacion{
+        width: 300px;
+        height: 200px;
+    }
+
+    .Iconos{
+        display: grid;
+        grid-template-areas: 
+        "what face"
+        "you inst"
+        ;
+        gap: 10px;
+    }
+
+    .what{
+        grid-area: what;
+    }
+
+    .face{
+        grid-area: face;
+    }
+
+    .you{
+        grid-area: you;
+    }
+
+    .inst{
+        grid-area: inst;
+    }
+
+}
+
+
