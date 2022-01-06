@@ -106,24 +106,37 @@
 
 .oferta-contenedor {
   display: flex;
-  justify-content: space-evenly; }
-
-.J {
-  display: flex;
-  justify-content: center; }
-
-.B {
-  display: flex;
-  justify-content: center; }
-
-.N {
-  display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   padding-bottom: 10px; }
 
-.O {
+.icon-J {
   display: flex;
   justify-content: center; }
+
+.icon-B {
+  display: flex;
+  justify-content: center; }
+
+.icon-N {
+  display: flex;
+  justify-content: center; }
+
+.icon-O {
+  display: flex;
+  justify-content: center; }
+
+.ofertas {
+  color: black; }
+
+.class-contacto {
+  color: #D0D3D4;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-family: cursive;
+  width: 100%;
+  background-color: #435560; }
 
 .Linea-2 {
   padding-bottom: 20px;
@@ -148,15 +161,6 @@
   background-color: #435560;
   width: 100%; }
 
-.class-contacto {
-  font-size: 30px;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  font-family: cursive;
-  width: 100%;
-  background-color: #435560; }
-
 .Iconos {
   padding: 20px;
   display: flex;
@@ -177,16 +181,10 @@
   font-size: 40px;
   background-color: #F0E9D2; }
 
-.ayudanos {
+.ayudanos, .dudas {
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: cursive; }
-
-.dudas {
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-top: 10px;
   font-family: cursive; }
 
 .letra {

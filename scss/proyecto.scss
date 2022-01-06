@@ -93,24 +93,37 @@
 .oferta-contenedor{
     display: flex;
     justify-content: space-evenly;
-}
-.J{
-    display: flex;
-    justify-content: center;
-}
-.B{
-    display: flex;
-    justify-content: center;
-}
-.N{
-    display: flex;
-    justify-content: center;
     padding-bottom: 10px;
 }
-.O{
-    display: flex;
-    justify-content: center;
+
+$icons: ("J", "B", "N", "O");
+
+
+@each $name in $icons {
+    .icon-#{$name}{
+        display: flex;
+        justify-content: center;
+    }
+    
 }
+
+$colores:( negro: black, blanco: #D0D3D4);
+
+.ofertas{
+    color: map-get($map: $colores, $key: negro);
+}
+
+.class-contacto{
+    color: map-get($map: $colores, $key: blanco);
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: cursive;
+    width: 100%;
+    background-color: #435560;
+}
+
 .Linea-2{
     padding-bottom: 20px;
     margin: 10px;
@@ -142,13 +155,7 @@
 
 .class-contacto{
 
-    font-size: 30px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    font-family: cursive;
-    width: 100%;
-    background-color: #435560;
+
     
 }
 
@@ -191,13 +198,9 @@
 }
 
 .dudas{
-
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-top: 10px;
-    font-family: cursive;
-
+    @extend .ayudanos;
 }
+
 
 .letra{
     font-size: 20px;
@@ -239,10 +242,16 @@
 
 /* Empieza HTML Tienda*/
 
-.fotos{
+@mixin flex ($dis,$jus,$otr){
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
+    justify-content: $jus;
+    justify-content: $otr;
+    
+}
+
+
+.fotos{
+    @include flex(none, center, space-around)
 }
 
 .todo{
