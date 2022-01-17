@@ -286,9 +286,6 @@
 .color-2 {
   background-color: #F0E9D2; }
 
-.color-3 {
-  background-color: #e9dfbe; }
-
 .fotos- {
   background-color: #E6DDC4; }
 
@@ -308,9 +305,6 @@
   padding: 25px;
   font-family: cursive;
   font-size: 25px; }
-
-.porcentaje {
-  background-color: #e9dfbe; }
 
 @media screen and (max-width: 1200px) {
   /* media index */
