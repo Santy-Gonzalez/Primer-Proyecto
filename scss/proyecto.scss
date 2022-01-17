@@ -74,6 +74,7 @@
     grid-template-areas: 
     "Video carrusel";
     justify-content: space-around;
+    column-gap: 10px;
 }
 
 .Video{
@@ -337,6 +338,13 @@ $colores:( negro: black, blanco: #D0D3D4);
 
 /* Empieza HTML Youtube*/
 
+.color-2{
+    background-color:#F0E9D2;
+}
+.color-3{
+    background-color:#e9dfbe;
+}
+
 .fotos-{
     background-color: #E6DDC4;
 }
@@ -359,12 +367,79 @@ $colores:( negro: black, blanco: #D0D3D4);
     padding: 25px;
     font-family: cursive;
     font-size: 25px;
-    background-color:#F0E9D2;
+}
+
+.porcentaje{
+    background-color:#e9dfbe;
+}
+
+
+@media screen and (max-width: 1200px){
+
+    /* media index */
+
+    .todo{
+        font-size: 20px;
+    }
+
+    /* media index */
+
+    .contenedor-divs{
+        display: grid;
+        grid-template-areas: 
+        "Video"
+        "carrusel"
+        ;
+        row-gap: 100px;
+        justify-content: center;
+
+    }
+    .Video{
+        grid-area: Video;
+    }
+    .carrusel{
+        grid-area: carrusel;
+    }
+    .carrusel{
+        width: 500px;
+        height: 400px;
+    }
+
+    .video-presentacion{
+        width: 500px;
+        height: 300px;
+    }
+
+    .Iconos{
+        display: grid;
+        grid-template-areas: 
+        "what face"
+        "you inst"
+        ;
+        gap: 10px;
+    }
+
+    .what{
+        grid-area: what;
+    }
+
+    .face{
+        grid-area: face;
+    }
+
+    .you{
+        grid-area: you;
+    }
+
+    .inst{
+        grid-area: inst;
+    }
+
 }
 
 /* Empieza media queries index */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
 
     *{
         margin: 0;
@@ -402,7 +477,7 @@ $colores:( negro: black, blanco: #D0D3D4);
     }
 
     .video-presentacion{
-        width: 300px;
+        width: 350px;
         height: 200px;
     }
 
@@ -432,5 +507,4 @@ $colores:( negro: black, blanco: #D0D3D4);
     }
 
 }
-
 
